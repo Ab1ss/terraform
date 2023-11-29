@@ -13,7 +13,7 @@ resource "proxmox_vm_qemu" "test_terra" {
     memory = 2048
 
     network{
-        bridge = "vmbr0"
+        bridge = "vmbr1"
         model = "virtio"
     }
     disk {
