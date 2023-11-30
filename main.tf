@@ -19,7 +19,7 @@ resource "proxmox_vm_qemu" "test_terra" {
     disk {
         storage = "local-lvm"
         type = "virtio"
-        size = "25G"
+        size = "20G"
     }
   
 }
